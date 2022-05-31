@@ -11,20 +11,24 @@ namespace EscrituraArchivos
     {
         static void Main(string[] args)
         {
-            StreamWriter sw = new StreamWriter("ejemplo.txt");
+            StreamWriter sw = new StreamWriter("ejemplo.txt", true);
             //si el archo no existe lo creará
             //si ya existe, escribira en él
 
-            string[] lines =
-            {
-                "Esta es la informacón de la primea línea",
-                "Esta es la segunda línea",
-                "Fin del texto"
-            };
+            string[] lines = new string[3];
 
+            Console.WriteLine("¿Cuál es el nombre del usuario?: ");
+            lines[0] = Console.ReadLine();
+            Console.WriteLine("¿Cual es la edad?: ");
+            lines[1] = Console.ReadLine();
+            Console.WriteLine("¿Cual su genero?: ");
+
+            lines[2] = Console.ReadLine(); 
+
+            //recorrer el arreglo 
             foreach (string line in lines)
             {
-                sw.WriteLine(line);
+                sw.WriteLine(line);//escribe en el archivo 
             }
             sw.Close(); // se debe cerrar el archivo
 

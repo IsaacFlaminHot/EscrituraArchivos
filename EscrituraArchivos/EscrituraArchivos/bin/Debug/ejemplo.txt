@@ -1,3 +1,9 @@
-Esta es la informacón de la primea línea
-Esta es la segunda línea
-Fin del texto
+Isaac
+19
+Masculino
+Julio Hernandez
+19
+masculino
+Belen Perez
+20
+Femenino
