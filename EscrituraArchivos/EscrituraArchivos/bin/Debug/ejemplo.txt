@@ -7,3 +7,7 @@ masculino
 Belen Perez
 20
 Femenino
+El nombre del alumno es: Jair Isaac
+La edad del alumno es: 18
+El genero del alumno es de tipo: Masculino
+La carrera a estudiar es: Ingenieria en Sistemas
